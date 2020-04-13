@@ -372,7 +372,7 @@ figure {
 }
 
 .sinopse-genero-item:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nota {
@@ -391,4 +391,55 @@ figure {
 
 .nota i:hover {
   color: #e74c3c;
+}
+
+.rodape {
+  background-color: #fff;
+  color: #bababa;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.rodape .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  border: 0;
+}
+
+.rodape-lista {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.rodape-lista-item {
+  margin: 0 20px;
+}
+
+.rodape-lista-item a {
+  font-size: 2.5em;
+  color: #bababa;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.rodape-lista-item:last-child {
+  margin-right: 0;
+}
+
+.fa.fa-twitter:hover {
+  color: rgba(29, 161, 242, 1);
+}
+
+.fa.fa-facebook-official:hover {
+  color: rgb(60, 89, 152);
+}
+
+.fa.fa-instagram:hover {
+  color: rgb(214, 84, 86);
 }
