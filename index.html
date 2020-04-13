@@ -8,50 +8,59 @@
     <meta name="description" content="Menu principal e catalogo de filmes" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    
+
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div>
-                [logo]
-                <ul>
-                    <li><a>LANÇAMENTOS</a></li>
-                    <li><a>CRÍTICA</a></li>
-                    <li><a>EM CARTAZ</a></li>
-                </ul>
+    <header class="header">
+		<nav class="navegar">
+			<div class="container">
+				<a href="#" class="header-logo">
+					<img src="img/logo-imdb.jpg" alt="Logo IMDB">
+				</a>
 
-                <div>
-                    <div>Foto perfil</div>
-                    <div>Nome perfil</div>
-                </div>
-            </div>
-        </nav>
+				<ul class="header-lista">
+					<li class="header-lista-item"><a href="#">LANÇAMENTOS</a></li>
+					<li class="header-lista-item"><a href="#">CRÍTICA</a></li>
+					<li class="header-lista-item"><a href="#">EM CARTAZ</a></li>
+				</ul>
 
-        <div>
-            <div>
-                [IMAGEM CARTAZ DO FILME]
-                <h1>MAD MAX: ESTRADA DA FÚRIA</h1>
-                <p>
-                    <a>AVENTURA</a>
-                    <a>SCI-FI</a>
-                    <a>TERROR</a>
-                </p>
-                <a>Assistir Trailer <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
-                <div>
-                    <p>Nos cinemas</p>
-                    <p>15 de Outubro de 2015 (Brasil)</p>
-                </div>
-            </div>
-        </div>
-    </header>
+				<div class="header-perfil">
+					<div class="header-perfil-foto">
+						<img src="img/walter-white.jpg" alt="Foto de perfil">
+					</div>
+
+					<div class="header-perfil-nome">
+						Walter White
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="header-conteudo">
+			<div class="container">
+				<h2 class="header-titulo">MAD MAX: ESTRADA DA FÚRIA</h2>
+				<p class="header-genero">
+					<a href="#" class="header-genero-item">AVENTURA</a>
+					<a href="#" class="header-genero-item">SCI-FI</a>
+					<a href="#" class="header-genero-item">TERROR</a>
+				</p>
+				<a href="#" class="header-botao">
+					Assistir Trailer <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+				</a>
+				<div class="header-info">
+					<p>Nos Cinemas</p>
+					<p>15 de Outubro de 2015 (Brasil)</p>
+				</div>
+			</div>
+		</div>
+	</header>
 
     <main>
         <section>
@@ -72,13 +81,13 @@
                     <li>
                         <figure>
                             <image>poster de moonlight</image>
-                            
+
                             <div>
                                 <h3>MOONLIGHT</h3>
                                 <a><i class="fa fa-play" aria-hidden="true"></i></a>
                             </div>
                         </figure>
-                        
+
                         <div>
                             <h3>MOONLIGHT</h3>
                             <p><a>Drama</a></p>
